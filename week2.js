@@ -13,7 +13,6 @@ while(true)
         operator: expression[1],
         calculation: function()
         {
-        
         if(this.operator === '+')
         console.log(running + " = " + (this.num1 + this.num2))
 
